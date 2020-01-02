@@ -102,3 +102,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+# service account key
+cloud-speech-test-263916-e190f7570a95.json

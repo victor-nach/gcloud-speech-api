@@ -1,0 +1,34 @@
+{
+  "name": "gcloud-speech-api",
+  "version": "1.0.0",
+  "description": "sample google cloud speech api application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src",
+    "dev": "nodemon src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victor-nach/gcloud-speech-api.git"
+  },
+  "keywords": [
+    "cloud",
+    "dpeech-to-text"
+  ],
+  "author": "Iheanacho victor nonso",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/victor-nach/gcloud-speech-api/issues"
+  },
+  "homepage": "https://github.com/victor-nach/gcloud-speech-api#readme",
+  "dependencies": {
+    "@google-cloud/speech": "^3.5.3",
+    "dotenv": "^8.2.0",
+    "node-record-lpcm16": "^1.0.1",
+    "sox": "^0.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
